@@ -1,0 +1,38 @@
+@import './variables.less';
+@import './theme.less';
+
+
+.@{pre-fix}-composite-panel {
+  display: flex;
+  background-color: e("var(--@{pre-fix}-panel-bg)");
+  height: 100%;
+
+  &-tabs {
+    height: 100%;
+    border-right: 1px solid e("var(--@{pre-fix}-border-gray)");
+  }
+
+  &-tab {
+    line-height: 0;
+    padding: @spacing-3;
+    cursor: pointer;
+    color:e("var(--@{pre-fix}-icon-color)");
+    transition: all ease .4;
+
+
+    &-active,
+    &:hover {
+      box-sizing: border-box;
+      color: e("var(--@{pre-fix}-primary-hovering)");
+    }
+
+    &-active {
+      background: linear-gradient(e("var(--@{pre-fix}-primary-hovering)"), e("var(--@{pre-fix}-primary-hovering)")) left top/ 2px 100% no-repeat;
+    }
+
+  }
+
+  &-content {
+    position: relative;
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.2",
+  "deps": {},
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": "form/README.md",
+        "hash": "147107363958577147"
+      },
+      {
+        "file": "form/package.json",
+        "hash": "8392576196720804963"
+      },
+      {
+        "file": "vue/README.md",
+        "hash": "15879091488189424213"
+      },
+      {
+        "file": "vue/package.json",
+        "hash": "2874028928461657112"
+      },
+      {
+        "file": "vue/src/aa.vue",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "vue/src/hooks/useLayout.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "vue/src/hooks/usePrefix.ts",
+        "hash": "3156481805001803847"
+      },
+      {
+        "file": "vue/src/index.ts",
+        "hash": "15861157399824929284"
+      },
+      {
+        "file": "vue/tsconfig.build.json",
+        "hash": "2960172189792261770"
+      },
+      {
+        "file": "vue/tsconfig.json",
+        "hash": "15288485010093260813"
+      },
+      {
+        "file": "vue/vite.config.ts",
+        "hash": "2535143905423229931"
+      }
+    ]
+  }
+}

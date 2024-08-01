@@ -1,0 +1,27 @@
+@import './variables.less';
+@import './theme.less';
+
+.@{pre-fix}-studio-panel {
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    background-color: e("var(--@{pre-fix}-studio-bg-color)");
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &-header {
+    box-sizing: border-box;
+    display: flex;
+    padding: @spacing-3 @spacing-4 ;
+    justify-content: space-between;
+    border-bottom: 1px solid e("var(--@{pre-fix}-border-gray)");
+    background-color: e("var(--@{pre-fix}-panel-bg)");
+  }
+
+  &-content{
+    display: flex;
+    flex: 1;
+  }
+}

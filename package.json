@@ -1,0 +1,35 @@
+{
+  "name": "designer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@designable/core": "1.0.0-beta.45",
+    "@designable/shared": "1.0.0-beta.45",
+    "@formily/core": "^2.3.1",
+    "@formily/element-plus": "1.1.0-beta.1",
+    "@formily/reactive-vue": "^2.3.1",
+    "@mdi/js": "^7.4.47",
+    "element-plus": "^2.7.3",
+    "lerna": "^8.1.5",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^14.12.3",
+    "less": "^4.2.0",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.17.6",
+    "vite": "^5.0.0",
+    "vitest": "^1.6.0",
+    "vue-tsc": "^1.8.22"
+  }
+}

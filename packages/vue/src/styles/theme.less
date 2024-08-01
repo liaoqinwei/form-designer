@@ -1,0 +1,46 @@
+@import './variables.less';
+
+:root {
+  --@{pre-fix}-brand-color: rgba(24, 144, 255, 1);
+  --@{pre-fix}-brand-hovering: rgba(64, 169, 255, 1);
+  --@{pre-fix}-brand-dragging: rgba(24, 144, 255, 0.26);
+  --@{pre-fix}-brand-dropping: rgba(24, 144, 255, 0.34);
+  --@{pre-fix}-brand-moving: rgba(24, 144, 255, 0.5);
+  //白色调色版
+  --@{pre-fix}-white: #fff;
+  --@{pre-fix}-white-gray: #d9d9d9;
+  --@{pre-fix}-white-gray-light: #eee;
+  --@{pre-fix}-white-gray-lighter: #f0f0f0;
+  --@{pre-fix}-white-gray-dark: #aaa;
+  //灰色调色板
+  --@{pre-fix}-gray: #333;
+  --@{pre-fix}-gray-light: #444;
+  --@{pre-fix}-gray-lighter: #666;
+  --@{pre-fix}-gray-dark: #222;
+  --@{pre-fix}-black: #f6ecec;
+}
+
+
+.@{pre-fix}-light {
+  --@{pre-fix}-primary-color:e("var(--@{pre-fix}-brand-color)");
+  --@{pre-fix}-primary-hovering:e("var(--@{pre-fix}-brand-hovering)");
+  --@{pre-fix}-primary-dragging:e("var(--@{pre-fix}-brand-dragging)");
+  --@{pre-fix}-primary-dropping:e("var(--@{pre-fix}-brand-dropping)");
+  --@{pre-fix}-primary-moving:e("var(--@{pre-fix}-brand-moving)");
+
+  --@{pre-fix}-panel-bg:e("var(--@{pre-fix}-white)");
+
+  --@{pre-fix}-border-gray:e("var(--@{pre-fix}-white-gray)");
+  --@{pre-fix}-studio-bg-color:e("var(--@{pre-fix}-white-gray-lighter)");
+  --@{pre-fix}-icon-color:e("var(--@{pre-fix}-gray-lighter)");
+
+  --@{pre-fix}-simulator-bg-color:e("var(--@{pre-fix}-white)");
+
+  --@{pre-fix}-hootkey-color:e("var(--@{pre-fix}-white-gray)");
+
+  --@{pre-fix}-resource-bg-color:e("var(--@{pre-fix}-white)");
+  --@{pre-fix}-resource-head-bg-color:e("var(--@{pre-fix}-white-gray-light)");
+
+}
+
+.@{pre-fix}-dark {}

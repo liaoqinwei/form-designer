@@ -1,0 +1,22 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.2",
+  "deps": {
+    "@designer/vue": "^0.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "4055973996339405783"
+      },
+      {
+        "file": "package.json",
+        "hash": "8836223144028061878"
+      }
+    ]
+  }
+}

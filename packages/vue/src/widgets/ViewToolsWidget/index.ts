@@ -1,0 +1,1 @@
+export {default as ViewToolsWidget} from './ViewToolsWidget.vue'
